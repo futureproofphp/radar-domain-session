@@ -1,0 +1,868 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "4cd426bc2673cf00e4658e926252e09c",
+    "content-hash": "61ed97705a1ad352efd109d8f0ec3657",
+    "packages": [
+        {
+            "name": "arbiter/arbiter",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arbiterphp/Arbiter.Arbiter.git",
+                "reference": "6e3501a0ce00aec75dfbd0ab74707e746d048978"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arbiterphp/Arbiter.Arbiter/zipball/6e3501a0ce00aec75dfbd0ab74707e746d048978",
+                "reference": "6e3501a0ce00aec75dfbd0ab74707e746d048978",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0",
+                "psr/http-message": "~1.0"
+            },
+            "require-dev": {
+                "zendframework/zend-diactoros": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Arbiter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arbiter.Arbiter Contributors",
+                    "homepage": "https://github.com/arbiterphp/Arbiter.Arbiter/contributors"
+                }
+            ],
+            "description": "A PSR-7 Action system for Action-Domain-Responder.",
+            "homepage": "https://github.com/arbiterphp/Arbiter.Arbiter",
+            "keywords": [
+                "action domain responder",
+                "adr",
+                "middleware",
+                "psr-7"
+            ],
+            "time": "2016-03-27 17:17:32"
+        },
+        {
+            "name": "aura/di",
+            "version": "3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/auraphp/Aura.Di.git",
+                "reference": "76824bdeae99e46e6ae06f29e4bdf86063da86b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/auraphp/Aura.Di/zipball/76824bdeae99e46e6ae06f29e4bdf86063da86b9",
+                "reference": "76824bdeae99e46e6ae06f29e4bdf86063da86b9",
+                "shasum": ""
+            },
+            "require": {
+                "container-interop/container-interop": "~1.0",
+                "php": ">=5.5.0"
+            },
+            "provide": {
+                "container-interop/container-interop-implementation": "^1.0"
+            },
+            "require-dev": {
+                "acclimate/container": "~1.0",
+                "mouf/picotainer": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aura\\Di\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aura.Di Contributors",
+                    "homepage": "https://github.com/auraphp/Aura.Di/contributors"
+                }
+            ],
+            "description": "A serializable dependency injection container with constructor and setter injection, interface and trait awareness, configuration inheritance, and much more.",
+            "homepage": "https://github.com/auraphp/Aura.Di",
+            "keywords": [
+                "container",
+                "dependency injection",
+                "dependency injection container",
+                "di",
+                "di container"
+            ],
+            "time": "2016-10-04 15:52:29"
+        },
+        {
+            "name": "aura/payload",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/auraphp/Aura.Payload.git",
+                "reference": "0fe2dcef54a8df163e9408e7316ec4fe33c3c07e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/auraphp/Aura.Payload/zipball/0fe2dcef54a8df163e9408e7316ec4fe33c3c07e",
+                "reference": "0fe2dcef54a8df163e9408e7316ec4fe33c3c07e",
+                "shasum": ""
+            },
+            "require": {
+                "aura/payload-interface": "~3.0",
+                "php": ">=5.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aura\\Payload\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aura.Payload Contributors",
+                    "homepage": "https://github.com/auraphp/Aura.Payload/contributors"
+                }
+            ],
+            "description": "A Domain Payload implementation.",
+            "homepage": "https://github.com/auraphp/Aura.Payload",
+            "keywords": [
+                "ddd",
+                "domain",
+                "payload"
+            ],
+            "time": "2016-10-03 21:41:00"
+        },
+        {
+            "name": "aura/payload-interface",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/auraphp/Aura.Payload_Interface.git",
+                "reference": "3228967aa56095f62caa6564be0b0529d668db15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/auraphp/Aura.Payload_Interface/zipball/3228967aa56095f62caa6564be0b0529d668db15",
+                "reference": "3228967aa56095f62caa6564be0b0529d668db15",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aura\\Payload_Interface\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aura.Payload_Interface Contributors",
+                    "homepage": "https://github.com/auraphp/Aura.Payload_Interface/contributors"
+                }
+            ],
+            "description": "An interface package for Domain Payload implementations.",
+            "homepage": "https://github.com/auraphp/Aura.Payload_Interface",
+            "keywords": [
+                "ddd",
+                "domain",
+                "payload"
+            ],
+            "time": "2015-12-01 15:16:56"
+        },
+        {
+            "name": "aura/router",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/auraphp/Aura.Router.git",
+                "reference": "52507bc813c92511dbcacc7463f163ef5149ad38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/auraphp/Aura.Router/zipball/52507bc813c92511dbcacc7463f163ef5149ad38",
+                "reference": "52507bc813c92511dbcacc7463f163ef5149ad38",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0",
+                "psr/http-message": "~1.0",
+                "psr/log": "~1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.7 || ~4.8",
+                "zendframework/zend-diactoros": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aura\\Router\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aura.Router Contributors",
+                    "homepage": "https://github.com/auraphp/Aura.Router/contributors"
+                }
+            ],
+            "description": "Powerful, flexible web routing for PSR-7 requests.",
+            "homepage": "https://github.com/auraphp/Aura.Router",
+            "keywords": [
+                "psr-7",
+                "route",
+                "router",
+                "routing"
+            ],
+            "time": "2017-03-02 16:34:47"
+        },
+        {
+            "name": "cadre/domain-session",
+            "version": "0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cadrephp/Cadre.DomainSession.git",
+                "reference": "b73063b4ccecf544c3c289a091d44c214b883353"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cadrephp/Cadre.DomainSession/zipball/b73063b4ccecf544c3c289a091d44c214b883353",
+                "reference": "b73063b4ccecf544c3c289a091d44c214b883353",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0",
+                "psr/log": "^1.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "^1.6.4",
+                "monolog/monolog": "^1.22",
+                "pds/skeleton": "1.x-dev",
+                "phing/phing": "^2.15",
+                "phpstan/phpstan": "^0.6.3",
+                "phpunit/phpunit": "^6.0",
+                "squizlabs/php_codesniffer": "^3.0@RC"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cadre\\DomainSession\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Cadre\\DomainSession\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cadre.DomainSession Contributors",
+                    "homepage": "https://github.com/cadrephp/Cadre.DomainSession/contributors"
+                }
+            ],
+            "description": "Library for managing session data within the domain",
+            "support": {
+                "source": "https://github.com/cadrephp/Cadre.DomainSession/tree/0.x",
+                "issues": "https://github.com/cadrephp/Cadre.DomainSession/issues"
+            },
+            "time": "2017-03-06 19:26:38"
+        },
+        {
+            "name": "container-interop/container-interop",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/container-interop/container-interop.git",
+                "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/container-interop/container-interop/zipball/79cbf1341c22ec75643d841642dd5d6acd83bdb8",
+                "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8",
+                "shasum": ""
+            },
+            "require": {
+                "psr/container": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Interop\\Container\\": "src/Interop/Container/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
+            "homepage": "https://github.com/container-interop/container-interop",
+            "time": "2017-02-14 19:40:03"
+        },
+        {
+            "name": "dflydev/fig-cookies",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dflydev/dflydev-fig-cookies.git",
+                "reference": "883233c159d00d39e940bd12cfe42c0d23420c1c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dflydev/dflydev-fig-cookies/zipball/883233c159d00d39e940bd12cfe42c0d23420c1c",
+                "reference": "883233c159d00d39e940bd12cfe42c0d23420c1c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "psr/http-message": "~1.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "~0.1@dev",
+                "phpunit/phpunit": "~4.5",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dflydev\\FigCookies\\": "src/Dflydev/FigCookies"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Beau Simensen",
+                    "email": "beau@dflydev.com"
+                }
+            ],
+            "description": "Cookies for PSR-7 HTTP Message Interface.",
+            "keywords": [
+                "cookies",
+                "psr-7",
+                "psr7"
+            ],
+            "time": "2016-03-28 09:10:18"
+        },
+        {
+            "name": "josegonzalez/dotenv",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/josegonzalez/php-dotenv.git",
+                "reference": "38a38273b7bdbe38ce0106aea373eae7a4f3125e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/josegonzalez/php-dotenv/zipball/38a38273b7bdbe38ce0106aea373eae7a4f3125e",
+                "reference": "38a38273b7bdbe38ce0106aea373eae7a4f3125e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "1.*",
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "josegonzalez\\Dotenv": [
+                        "src",
+                        "tests"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jose Diaz-Gonzalez",
+                    "email": "dotenv@josegonzalez.com",
+                    "homepage": "http://josediazgonzalez.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "dotenv file parsing for PHP",
+            "homepage": "https://github.com/josegonzalez/php-dotenv",
+            "keywords": [
+                "configuration",
+                "dotenv",
+                "php"
+            ],
+            "time": "2016-01-07 07:13:27"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "1.22.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "bad29cb8d18ab0315e6c477751418a82c850d558"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bad29cb8d18ab0315e6c477751418a82c850d558",
+                "reference": "bad29cb8d18ab0315e6c477751418a82c850d558",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^2.4.9 || ^3.0",
+                "doctrine/couchdb": "~1.0@dev",
+                "graylog2/gelf-php": "~1.0",
+                "jakub-onderka/php-parallel-lint": "0.9",
+                "php-amqplib/php-amqplib": "~2.4",
+                "php-console/php-console": "^3.1.3",
+                "phpunit/phpunit": "~4.5",
+                "phpunit/phpunit-mock-objects": "2.3.0",
+                "ruflin/elastica": ">=0.90 <3.0",
+                "sentry/sentry": "^0.13",
+                "swiftmailer/swiftmailer": "~5.3"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-mongo": "Allow sending log messages to a MongoDB server",
+                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
+                "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
+                "php-console/php-console": "Allow sending log messages to Google Chrome",
+                "rollbar/rollbar": "Allow sending log messages to Rollbar",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
+                "sentry/sentry": "Allow sending log messages to a Sentry server"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Monolog\\": "src/Monolog"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "time": "2016-11-26 00:15:39"
+        },
+        {
+            "name": "psr/container",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2017-02-14 16:28:37"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06 14:39:51"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2016-10-10 12:19:37"
+        },
+        {
+            "name": "radar/adr",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/radarphp/Radar.Adr.git",
+                "reference": "0f0ee20f51f3b12b00e35be7eb75f915d425cff0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/radarphp/Radar.Adr/zipball/0f0ee20f51f3b12b00e35be7eb75f915d425cff0",
+                "reference": "0f0ee20f51f3b12b00e35be7eb75f915d425cff0",
+                "shasum": ""
+            },
+            "require": {
+                "arbiter/arbiter": "~1.0",
+                "aura/di": "~3.0",
+                "aura/payload": "~3.0",
+                "aura/router": "~3.0",
+                "relay/middleware": "~1.0",
+                "relay/relay": "~1.0"
+            },
+            "require-dev": {
+                "zendframework/zend-diactoros": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Radar\\Adr\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The Action-Domain-Responder core library for Radar.",
+            "homepage": "https://github.com/radarphp/Radar.Adr",
+            "time": "2016-04-05 15:57:58"
+        },
+        {
+            "name": "relay/middleware",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/relayphp/Relay.Middleware.git",
+                "reference": "7ae2a923239e0de544869526a30f873990557aff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/relayphp/Relay.Middleware/zipball/7ae2a923239e0de544869526a30f873990557aff",
+                "reference": "7ae2a923239e0de544869526a30f873990557aff",
+                "shasum": ""
+            },
+            "require": {
+                "psr/http-message": "~1.0"
+            },
+            "require-dev": {
+                "zendframework/zend-diactoros": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Relay\\Middleware\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Relay-compatible middleware decorators.",
+            "homepage": "https://github.com/relayphp/Relay.Middleware",
+            "time": "2016-12-07 16:45:53"
+        },
+        {
+            "name": "relay/relay",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/relayphp/Relay.Relay.git",
+                "reference": "e835fc45351b7a92a6fdf2a36be7bd59ef56c8ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/relayphp/Relay.Relay/zipball/e835fc45351b7a92a6fdf2a36be7bd59ef56c8ae",
+                "reference": "e835fc45351b7a92a6fdf2a36be7bd59ef56c8ae",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0",
+                "psr/http-message": "~1.0"
+            },
+            "require-dev": {
+                "zendframework/zend-diactoros": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Relay\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Relay.Relay Contributors",
+                    "homepage": "https://github.com/relayphp/Relay.Relay/contributors"
+                }
+            ],
+            "description": "A PSR-7 middleware dispatcher.",
+            "homepage": "https://github.com/relayphp/Relay.Relay",
+            "keywords": [
+                "middleware",
+                "psr-7"
+            ],
+            "time": "2015-12-17 18:18:30"
+        },
+        {
+            "name": "zendframework/zend-diactoros",
+            "version": "1.3.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/zend-diactoros.git",
+                "reference": "83e8d98b9915de76c659ce27d683c02a0f99fa90"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/zend-diactoros/zipball/83e8d98b9915de76c659ce27d683c02a0f99fa90",
+                "reference": "83e8d98b9915de76c659ce27d683c02a0f99fa90",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.4 || ^7.0",
+                "psr/http-message": "~1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "~1.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.6 || ^5.5",
+                "zendframework/zend-coding-standard": "~1.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3-dev",
+                    "dev-develop": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Zend\\Diactoros\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "PSR HTTP Message implementations",
+            "homepage": "https://github.com/zendframework/zend-diactoros",
+            "keywords": [
+                "http",
+                "psr",
+                "psr-7"
+            ],
+            "time": "2017-01-23 04:53:24"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "pds/skeleton",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-pds/skeleton.git",
+                "reference": "95e476e5d629eadacbd721c5a9553e537514a231"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-pds/skeleton/zipball/95e476e5d629eadacbd721c5a9553e537514a231",
+                "reference": "95e476e5d629eadacbd721c5a9553e537514a231",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/pds-skeleton"
+            ],
+            "type": "standard",
+            "autoload": {
+                "psr-4": {
+                    "Pds\\Skeleton\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "CC-BY-SA-4.0"
+            ],
+            "description": "Standard for PHP package skeletons.",
+            "homepage": "https://github.com/php-pds/skeleton",
+            "time": "2017-01-25 23:30:41"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "cadre/domain-session": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.5.0"
+    },
+    "platform-dev": []
+}
