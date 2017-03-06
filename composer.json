@@ -2,7 +2,7 @@
     "type": "project",
     "require": {
         "php": ">=5.5.0",
-        "cadre/domain-session": "0.x@dev",
+        "cadre/domain-session": "0.4.0",
         "radar/adr": "~1.0",
         "relay/middleware": "~1.0",
         "josegonzalez/dotenv": "~1.0",

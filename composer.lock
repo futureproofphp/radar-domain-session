@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4cd426bc2673cf00e4658e926252e09c",
-    "content-hash": "61ed97705a1ad352efd109d8f0ec3657",
+    "hash": "5f5a4532f69f70f282fb4a7f894b1d07",
+    "content-hash": "ca2ca64f07b37da50fd54c2153e463e0",
     "packages": [
         {
             "name": "arbiter/arbiter",
@@ -242,16 +242,16 @@
         },
         {
             "name": "cadre/domain-session",
-            "version": "0.x-dev",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cadrephp/Cadre.DomainSession.git",
-                "reference": "b73063b4ccecf544c3c289a091d44c214b883353"
+                "reference": "37d191a2da204f445d658ee28040327eb48011dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cadrephp/Cadre.DomainSession/zipball/b73063b4ccecf544c3c289a091d44c214b883353",
-                "reference": "b73063b4ccecf544c3c289a091d44c214b883353",
+                "url": "https://api.github.com/repos/cadrephp/Cadre.DomainSession/zipball/37d191a2da204f445d658ee28040327eb48011dc",
+                "reference": "37d191a2da204f445d658ee28040327eb48011dc",
                 "shasum": ""
             },
             "require": {
@@ -292,7 +292,7 @@
                 "source": "https://github.com/cadrephp/Cadre.DomainSession/tree/0.x",
                 "issues": "https://github.com/cadrephp/Cadre.DomainSession/issues"
             },
-            "time": "2017-03-06 19:26:38"
+            "time": "2017-03-06 20:22:50"
         },
         {
             "name": "container-interop/container-interop",
@@ -856,9 +856,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "cadre/domain-session": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
