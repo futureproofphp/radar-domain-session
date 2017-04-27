@@ -1,25 +1,33 @@
 {
+    "name": "futureproofphp/radar-domain-session",
     "type": "project",
     "require": {
-        "php": ">=5.5.0",
-        "cadre/domain-session": "0.4.0",
-        "radar/adr": "~1.0",
-        "relay/middleware": "~1.0",
-        "josegonzalez/dotenv": "~1.0",
-        "zendframework/zend-diactoros": "~1.0",
-        "monolog/monolog": "^1.22",
+        "php": ">=7.0",
+        "cadre/domain-session": "^0.4",
+        "radar/adr": "^1.1",
+        "relay/middleware": "^1.1",
+        "twig/twig": "^1.25",
+        "zendframework/zend-diactoros": "^1.3",
         "dflydev/fig-cookies": "^1.0"
     },
     "require-dev": {
-        "pds/skeleton": "~1.0"
+        "pds/skeleton": "1.x-dev"
     },
     "autoload": {
         "psr-4": {
             "": "src/"
         }
     },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Shell",
+            "email": "andrew@andrewshell.org"
+        }
+    ],
     "repositories": [{
         "type": "composer",
         "url": "https://packages.cadrephp.com"
-    }]
+    }],
+    "minimum-stability": "stable"
 }

@@ -1,38 +1,23 @@
 <?php
-use josegonzalez\Dotenv\Loader as Dotenv;
+use Application\Module\Core as CoreModule;
+use Application\Module\Domain as DomainModule;
+use Application\Module\Routing as RoutingModule;
+use Application\Module\Twig as TwigModule;
 use Radar\Adr\Boot;
-use Relay\Middleware\ExceptionHandler;
-use Relay\Middleware\ResponseSender;
-use Zend\Diactoros\Response as Response;
-use Zend\Diactoros\ServerRequestFactory as ServerRequestFactory;
+use Zend\Diactoros\Response;
+use Zend\Diactoros\ServerRequestFactory as Request;
 
-/**
- * Bootstrapping
- */
 require '../vendor/autoload.php';
 
-Dotenv::load([
-    'filepath' => dirname(__DIR__) . DIRECTORY_SEPARATOR . '.env',
-    'toEnv' => true,
-]);
+date_default_timezone_set('UTC');
+define('__ROOTDIR__', realpath(__DIR__ . '/../'));
 
 $boot = new Boot();
-$adr = $boot->adr(['Config']);
+$adr = $boot->adr([
+    CoreModule::class,
+    DomainModule::class,
+    RoutingModule::class,
+    TwigModule::class,
+]);
 
-/**
- * Middleware
- */
-$adr->middle(new ResponseSender());
-$adr->middle(new ExceptionHandler(new Response()));
-$adr->middle('Radar\Adr\Handler\RoutingHandler');
-$adr->middle('Radar\Adr\Handler\ActionHandler');
-
-/**
- * Routes
- */
-$adr->get('Sample', '/', 'Sample');
-
-/**
- * Run
- */
-$adr->run(ServerRequestFactory::fromGlobals(), new Response());
+$adr->run(Request::fromGlobals(), new Response());

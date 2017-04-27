@@ -1,6 +1,2 @@
 .DS_Store
-/.env
-/build
-/debug.log
-/sessions
 /vendor
