@@ -40,13 +40,12 @@ class DefaultResponder implements ResponderAcceptsInterface
             $this->error($payload);
         }
         if (isset($payload['session']) && $payload['session'] instanceof Session) {
-            if ($payload['session']->getId()->hasUpdatedValue()) {
-                $this->response = FigResponseCookies::set(
-                    $this->response,
-                    SetCookie::create('SESSION_ID')
-                        ->withValue($payload['session']->getId()->value())
-                );
-            }
+            $this->response = FigResponseCookies::set(
+                $this->response,
+                SetCookie::create('SESSION_ID')
+                    ->withValue($payload['session']->getId()->value())
+                    ->withExpires(date('D, d-M-Y H:i:s e', strtotime('+30 minutes')))
+            );
         }
         return $this->response;
     }
